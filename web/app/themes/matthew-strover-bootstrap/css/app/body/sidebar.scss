@@ -1,0 +1,15 @@
+.sidebar {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and ($min-tablet) {
+  .sidebar {
+    .row {
+      margin-left: 0;
+      margin-right: -15px;
+    }
+  }
+}
