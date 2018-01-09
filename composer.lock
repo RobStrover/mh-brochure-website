@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ccf712518be70fd4a2744a83c7845daf",
     "content-hash": "c723df34f0d4caf2c31e19e6542b3a6d",
     "packages": [
         {
@@ -140,7 +139,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-12-29 09:13:20"
+            "time": "2017-12-29T09:13:20+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -179,7 +178,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-10-31 16:40:07"
+            "time": "2017-10-31T16:40:07+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -219,7 +218,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-10-31 16:39:59"
+            "time": "2017-10-31T16:39:59+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -268,7 +267,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-31 18:42:33"
+            "time": "2017-05-31T18:42:33+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -310,7 +309,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2017-07-17 20:41:59"
+            "time": "2017-07-17T20:41:59+00:00"
         },
         {
             "name": "philippbaschke/acf-pro-installer",
@@ -366,7 +365,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2016-07-20 10:19:36"
+            "time": "2016-07-20T10:19:36+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -423,7 +422,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01 16:27:06"
+            "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -473,7 +472,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -546,7 +545,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-12-19 21:44:46"
+            "time": "2017-12-19T21:44:46+00:00"
         }
     ],
     "aliases": [],
