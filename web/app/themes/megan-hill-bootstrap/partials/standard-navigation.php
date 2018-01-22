@@ -8,6 +8,7 @@ $frontPageLink = get_the_permalink($frontpageId);
 
 $customMenuItems = array();
 
+if (!empty($menuItems)) {
 ?>
 
 <nav class="animated fadeIn navbar yamm navbar-default navbar-fixed-top">
@@ -41,3 +42,5 @@ $customMenuItems = array();
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+
+<?php } ?>

@@ -7,8 +7,8 @@ function wpdocs_theme_name_scripts() {
 add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
 
 register_nav_menus( array(
-    'primary' => __( 'Primary Menu',      'matthew-strover-bootstrap' ),
-    'social'  => __( 'Social Links Menu', 'matthew-strover-bootstrap' ),
+    'primary' => __( 'Primary Menu',      'megan-hill-bootstrap' ),
+    'social'  => __( 'Social Links Menu', 'megan-hill-bootstrap' ),
 ) );
 
 ?>
