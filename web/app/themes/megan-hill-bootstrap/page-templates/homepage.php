@@ -3,9 +3,12 @@
  * Template Name: Homepage Template
  */
 
-$pageTitle = get_the_title();
+get_header();
 
-$page = get_page_by_title( $pageTitle );
+$pageTitle = get_the_title();
+$pageId = get_the_ID();
+
+$page = get_post ( $pageId );
 
 get_template_part('partials/standard-navigation');
 
