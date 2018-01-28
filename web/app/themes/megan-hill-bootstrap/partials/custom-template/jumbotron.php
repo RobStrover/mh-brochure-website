@@ -14,7 +14,7 @@ if ($image['sizes']) {
 ?>
 <div class="row custom-template-section jumbotron-section animated fadeIn">
 <div
-        class="animated fadeIn jumbotron lazy-background-image"
+        class="animated fadeIn jumbotron default-template-jumbotron lazy-background-image"
         style="background-image: url('<?= array_key_exists('medium', $imageArray) ? $imageArray['medium'] : '' ?>')"
     <?php foreach($imageArray as $imageKey => $image) {
         if (empty($image)) {

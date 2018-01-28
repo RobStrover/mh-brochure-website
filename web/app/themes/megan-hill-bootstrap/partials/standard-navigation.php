@@ -22,7 +22,7 @@ if (!empty($menuItems)) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?= $frontPageLink ?>"><?= $frontPageTitle ?></a>
+            <a class="navbar-brand" href="<?= $frontPageLink ?>">Megan Hill</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
