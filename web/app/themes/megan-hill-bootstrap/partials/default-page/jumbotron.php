@@ -1,6 +1,7 @@
 <?php
 /** @var array $pageMainImage */
-//var_dump($pageMainImage);
+
+$title = get_the_title();
 
 $image = $pageMainImage;
 
@@ -23,4 +24,7 @@ if ($image['sizes']) {
         data-<?= $imageKey ?>="<?= $image ?>"
     <?php } ?>
 >
+    <?php if (!empty($title)) { ?>
+        <h1><?= $title ?></h1>
+    <?php } ?>
 </div>

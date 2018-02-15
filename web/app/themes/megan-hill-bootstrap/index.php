@@ -19,7 +19,7 @@ get_template_part('partials/standard-navigation');
 
             <?php
             set_query_var( 'pageMainImage', $pageMainImage );
-            get_template_part('partials/default-page/main-image');
+            get_template_part('partials/default-page/jumbotron');
 
             echo apply_filters('the_content', $page->post_content);
             ?>

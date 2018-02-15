@@ -10,6 +10,11 @@ minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <?php wp_head(); ?>
 
+    <?php
+        $pageClasses = get_body_class();
+        $pageClasses = implode(" ", $pageClasses);
+    ?>
+
 </head>
 
-<body>
+<body class="<?= $pageClasses ?>">

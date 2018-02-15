@@ -49,6 +49,7 @@ gulp.task('css', function() {
 
 gulp.task('sass', function() {
     gulp.src([
+        'css/app/priority/global.scss',
         'css/app/priority/variables.scss',
         'css/app/priority/default-typography.scss',
         'css/app/body/*.scss'
