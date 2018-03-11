@@ -1,8 +1,25 @@
 <?php
-/** @var array $pageMainImage */
-//var_dump($pageMainImage);
+/**
+ * @var array $pageMainImage
+ * @var string $pageMainTitle
+ * @var string $pageSubTitle
+ */
 
-$image = $pageMainImage;
+$image = '';
+$title = '';
+$subtitle = '';
+
+if (isset($pageMainImage)) {
+    $image = $pageMainImage;
+}
+
+if (isset($pageMainTitle)) {
+    $title = $pageMainTitle;
+}
+
+if (isset($pageSubTitle)) {
+    $subtitle = $pageSubTitle;
+}
 
 $imageArray = array();
 if ($image['sizes']) {
@@ -23,4 +40,8 @@ if ($image['sizes']) {
         data-<?= $imageKey ?>="<?= $image ?>"
     <?php } ?>
 >
+    <?php if (!empty($title)) { ?>
+        <h1><?= $title ?></h1>
+        <h2><?= $subtitle ?></h2>
+    <?php } ?>
 </div>
