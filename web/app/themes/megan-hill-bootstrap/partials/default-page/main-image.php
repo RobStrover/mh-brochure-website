@@ -5,9 +5,21 @@
  * @var string $pageSubTitle
  */
 
-$image = $pageMainImage;
-$title = $pageMainTitle;
-$subtitle = $pageSubTitle;
+$image = '';
+$title = '';
+$subtitle = '';
+
+if (isset($pageMainImage)) {
+    $image = $pageMainImage;
+}
+
+if (isset($pageMainTitle)) {
+    $title = $pageMainTitle;
+}
+
+if (isset($pageSubTitle)) {
+    $subtitle = $pageSubTitle;
+}
 
 $imageArray = array();
 if ($image['sizes']) {

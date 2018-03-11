@@ -94,7 +94,7 @@ get_template_part('partials/standard-navigation');
                     <?php if (!empty($eventDate) || !empty($eventTime)) { ?>
                         <p class="event-date">
                             <?= !empty($eventDate) ? $eventDateObj->format('D jS F Y') : '' ?>
-                            <?= !empty($eventTime) ? ' - ' . $eventDateObj->format('g:ia') : '' ?>
+                            <?= !empty($eventTime) ? ' - ' . $eventTimeObj->format('g:ia') : '' ?>
                         </p>
                     <?php } ?>
                     <?php if (!empty($eventExcerpt)) { ?>
