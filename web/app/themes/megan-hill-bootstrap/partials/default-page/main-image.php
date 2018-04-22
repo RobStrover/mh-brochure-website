@@ -22,12 +22,14 @@ if (isset($pageSubTitle)) {
 }
 
 $imageArray = array();
-if ($image['sizes']) {
+if (!empty($image['sizes'])) {
     $imageArray['medium'] = array_key_exists('medium', $image['sizes']) ? ($image['sizes']['medium']) : '';
     $imageArray['large'] = array_key_exists('large', $image['sizes']) ? ($image['sizes']['large']) : '';
     $imageArray['full-quality'] = array_key_exists('url', $image) ? $image['url'] : '';
 }
 ?>
+
+<?php if(isset($pageMainImage)) { ?>
 
 <div
     class="jumbotron lazy-background-image"
@@ -45,3 +47,5 @@ if ($image['sizes']) {
         <h2><?= $subtitle ?></h2>
     <?php } ?>
 </div>
+
+<?php } ?>

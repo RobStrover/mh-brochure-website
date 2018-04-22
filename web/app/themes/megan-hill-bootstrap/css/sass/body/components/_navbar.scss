@@ -1,18 +1,21 @@
 nav {
-  .navbar-default {
+  &.navbar-default {
     box-shadow: 0 20px 20px rgba(0,0,0,.25), 0 0 0 rgba(0,0,0,.22);
-    background-color: $primaryDark;
-    border-color: $primaryDark;
+    background: linear-gradient(135deg, $gradientColourOne 0, $gradientColourTwo 100%);
+    border-color: transparent;
     .navbar-brand {
-      color: $primaryDarkText;
+      color: $menuTextColour;
+      &:hover {
+        color: $menuTextHoverColour;
+      }
     }
-    .navbar-nav {
+    &.navbar-nav {
       li {
         a {
           transition: all 0.3s ease;
-          color: $primaryDarkText;
+          color: $menuTextColour;
           &:hover {
-            color: $primaryLightText;
+            color: $menuTextHoverColour;
             background-color: $primaryLight;
           }
         }
@@ -20,11 +23,11 @@ nav {
           transition: all 0.3s ease;
           a {
             font-weight: bold;
-            color: $primaryLightText;
+            color: $menuTextColour;
             background-color: $primaryLight;
             &:hover {
               font-weight: bold;
-              color: $primaryLightText;
+              color: $menuTextHoverColour;
               background-color: $primaryLight;
             }
           }
